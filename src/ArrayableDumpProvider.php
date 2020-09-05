@@ -2,7 +2,7 @@
 
 namespace Ika\ArrayableDump;
 
-use Classes\Arrayable;
+use Ika\ArrayableDump\Classes\Arrayable;
 use Illuminate\Support\ServiceProvider;
 use Symfony\Component\VarDumper\VarDumper;
 use Illuminate\Contracts\Support\Arrayable as ArrayableType;
