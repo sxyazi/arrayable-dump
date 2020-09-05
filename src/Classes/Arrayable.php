@@ -12,6 +12,6 @@ class Arrayable
             $this->{$key} = $value;
         }
 
-        $this->__proto__ = get_class($obj);
+        $this->__proto__ = $obj;
     }
 }
