@@ -1,0 +1,28 @@
+{
+  "name": "sxyazi/dump-arrayable",
+  "description": "Arrayable dump support for Laravel",
+  "homepage": "https://github.com/sxyazi/arrayable-dump",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "dump",
+    "arrayable"
+  ],
+  "authors": [
+    {
+      "name": "sxyazi",
+      "email": "sxyazi@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.4"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ],
+    "psr-4": {
+      "Ika\\ArrayableDump\\": "src/"
+    }
+  }
+}
